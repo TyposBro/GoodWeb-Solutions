@@ -1,21 +1,23 @@
-﻿/*Сlass Selectors*/
-.fa{
-
-    font-size: 20px;
+/*Сlass Selectors*/
+.container-fluid {
+  padding: 0;
 }
-.glyphicon{
+
+.fa {
   font-size: 20px;
 }
 
-li{
+.glyphicon {
+  font-size: 20px;
+}
+
+li {
   font-weight: bold;
   padding: 0 10px 0 10px;
 }
 
-
 /*Footer*/
-
-body,div {
+body, div {
   margin: 0;
   padding: 0;
 }
@@ -28,7 +30,6 @@ body,div {
 .row {
   margin: 0 auto;
   padding: 60px;
-
 }
 
 .footer-left {
@@ -44,7 +45,6 @@ body,div {
   width: 220px;
 }
 
-
 .text {
   width: 360px;
   text-align: left;
@@ -57,13 +57,14 @@ body,div {
   font-family: times;
   float: left;
 }
+
 .footer-middle h1 {
   text-align: center;
   font-family: cursive;
   color: white;
 }
 
- ul {
+ul {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -71,6 +72,7 @@ body,div {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+
 .footer-middle a {
   display: block;
   cursor: pointer;
