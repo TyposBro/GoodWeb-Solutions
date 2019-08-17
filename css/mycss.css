@@ -1,0 +1,77 @@
+﻿/*Сlass Selectors*/
+.fa{
+
+    font-size: 20px;
+}
+.glyphicon{
+  font-size: 20px;
+}
+
+li{
+  font-weight: bold;
+  padding: 0 10px 0 10px;
+}
+
+
+/*Footer*/
+
+body,div {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  height: 600px;
+  background-color: #393939;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 60px;
+
+}
+
+.footer-left {
+  height: 280px;
+  float: left;
+}
+
+.iconca {
+  padding: 50px, 50px, 0, 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 220px;
+}
+
+
+.text {
+  width: 360px;
+  text-align: left;
+  color: #a0a0a0;
+}
+
+.footer-middle {
+  padding-left: 20px;
+  margin: 0px, 0, 0, 30px;
+  font-family: times;
+  float: left;
+}
+.footer-middle h1 {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+
+ ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.footer-middle a {
+  display: block;
+  cursor: pointer;
+}
