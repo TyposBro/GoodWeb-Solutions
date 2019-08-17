@@ -1,22 +1,36 @@
-/*Сlass Selectors*/
+/***********************Header***********************/
+/***Сlass Selectors***/
 .container-fluid {
   padding: 0;
 }
 
 .fa {
   font-size: 20px;
+  padding: 0 3px 0 3px;
 }
 
 .glyphicon {
   font-size: 20px;
 }
-
-li {
-  font-weight: bold;
-  padding: 0 10px 0 10px;
+.table{
+  margin: 0;
+}
+#td{
+  padding: 2px 12px 0 12px;
+  border: 0;
 }
 
-/*Footer*/
+a{
+  padding: 0 6px;
+}
+.Installation{
+  color: #ff6600;
+}
+.btn-lg{
+  background-color:  #ff6600;
+}
+
+/***********************Footer***********************/
 body, div {
   margin: 0;
   padding: 0;
