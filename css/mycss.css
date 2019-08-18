@@ -29,6 +29,9 @@ a{
 .btn-lg{
   background-color:  #ff6600;
 }
+.active{
+  background-color:  #ff6600;
+  }
 
 /***********************Footer***********************/
 body, div {
