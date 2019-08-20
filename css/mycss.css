@@ -22,7 +22,7 @@
 
 a{
   padding: 0 6px;
-}
+  }
 .Installation{
   color: #ff6600;
 }
@@ -32,7 +32,9 @@ a{
 .active{
   background-color:  #ff6600;
   }
-
+hr{
+  color: grey;
+}
 /***********************Footer***********************/
 body, div {
   margin: 0;
