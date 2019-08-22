@@ -1,15 +1,17 @@
 $('.nav-link').mouseenter(function() {
   $(this).css("background-color", " #ff6600");
-  $(this).addClass("rounded-pill");
+  $(this).css("border-radius", "25px 0 25px 0");
+  $(this).css("color", "white");
 });
 $('.nav-link').mouseleave(function() {
   $(this).css("background-color", "");
+  $(this).css("color", "black");
 });
 
 $(document).ready(function() {
   $('.active').css("background-color", " #ff6600");
-  $(".active").addClass("rounded-pill");
-  $('nav').css("background-color", "white");
+  $('.nav').css("background-color", "white");
+  $('.active').css("color", "white");
 });
 
 var td1, td2, td3, td4 = 0;

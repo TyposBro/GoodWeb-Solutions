@@ -56,28 +56,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="About_us.html">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Services <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Our_services.html">Our Services <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Features.html">Features <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testtimonals <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Testimonials.html">Testimonials <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Pricing.html">Pricing <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -173,51 +173,108 @@
   <!--Counters-->
 
   <div class="parallax section parallax-off" style="z-index: 2;  background-image: url(uploads/parallax_04.jpg);  padding: 150px;">
-  <table class="table table-borderless">
-  <thead>
-    <tr>
-      <th scope="col"><i class="fa fa-briefcase" style="font-size:48px"></i></th>
-      <th scope="col"><i class="fa fa-smile-o" style="font-size:48px"></th>
-      <th scope="col"><i class="fa fa-users" style="font-size:48px"></i></th>
-      <th scope="col"><i class="fa fa-wechat" style="font-size:48px"></i></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td id = 'td1'></td>
-      <td id = 'td2'></td>
-      <td id = 'td3'></td>
-      <td id = 'td4'></td>
-    </tr>
-    <tr>
-      <td><h4>Complated Projects</h4></td>
-      <td><h4>Happy Clients</h4></td>
-      <td><h4>Customer Services</h4></td>
-      <td><h4>Answered Questions</h4></td>
-      <script type="text/javascript">
-      var td1, td2, td3, td4 = 0;
-      while (td1 < 1200) {
-        td1 ++;
-        document.getElementById("td1").innerHTML = 'td1';
-      }
-      while (td1 < 3210) {
-        td1 ++;
-        document.getElementById("td2").innerHTML = 'td2';
-      }
-      while (td1 < 3781) {
-        td1 ++;
-        document.getElementById("td3").innerHTML = td3;
-      }
-      while (td1 < 4300) {
-        td1 ++;
-        document.getElementById("td4").innerHTML = td4;
-      }
-      </script>
-    </tr>
-    </tbody>
-</table>
-</div>
+    <table class="table table-borderless">
+      <thead>
+        <tr>
+          <th scope="col"><i class="fa fa-briefcase" style="font-size:48px"></i></th>
+          <th scope="col"><i class="fa fa-smile-o" style="font-size:48px"></th>
+          <th scope="col"><i class="fa fa-users" style="font-size:48px"></i></th>
+          <th scope="col"><i class="fa fa-wechat" style="font-size:48px"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id='td1'></td>
+          <td id='td2'></td>
+          <td id='td3'></td>
+          <td id='td4'></td>
+        </tr>
+        <tr>
+          <td>
+            <h4>Complated Projects</h4>
+          </td>
+          <td>
+            <h4>Happy Clients</h4>
+          </td>
+          <td>
+            <h4>Customer Services</h4>
+          </td>
+          <td>
+            <h4>Answered Questions</h4>
+          </td>
+          <script type="text/javascript">
+            var td1, td2, td3, td4 = 0;
+            while (td1 < 1200) {
+              td1++;
+              document.getElementById("td1").innerHTML = 'td1';
+            }
+            while (td1 < 3210) {
+              td1++;
+              document.getElementById("td2").innerHTML = 'td2';
+            }
+            while (td1 < 3781) {
+              td1++;
+              document.getElementById("td3").innerHTML = td3;
+            }
+            while (td1 < 4300) {
+              td1++;
+              document.getElementById("td4").innerHTML = td4;
+            }
+          </script>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <!--Our Services-->
+  <div class="OurServices">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- FirstCard -->
+
+          <div class="card" style="width: 22rem;">
+            <img src="uploads/service_01.jpg" class="card-img-top OurServicesImg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Smart Watch Editors</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+        <!-- SecondCard -->
+
+          <div class="card" style="width: 22rem;">
+            <img src="uploads/service_02.jpg" class="card-img-top  OurServicesImg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web UI Kit Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+        <!-- ThirdCard -->
+
+          <div class="card" style="width: 22rem;">
+            <img src="uploads/service_03.jpg" class="card-img-top  OurServicesImg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mobile Optimization</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+        <!-- ForthCard -->
+
+          <div class="card" style="width: 22rem;">
+            <img src="uploads/service_04.jpg" class="card-img-top  OurServicesImg" alt="..." style="z-index:2;">
+            <div class="card-body">
+              <h5 class="card-title">Digital Design for Mac</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <button class="rounded-pill btn-lg btn-dark"> <a href="Portfolio.html" style="color: white; ">View Our Portfolio</a> </button>
+      </div>
+    </div>
+  </div>
   <!--Sample-->
   <!--Features & OverViews-->
   <!--Testtimonals-->

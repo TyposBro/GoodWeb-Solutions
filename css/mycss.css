@@ -5,12 +5,14 @@
 }
 
 .fa {
+  border-radius: 25px 0 25px 0 !important;
   font-size: 20px;
   padding: 0 3px 0 3px;
 }
 
 .glyphicon {
   font-size: 20px;
+  border-radius: 25px 0 25px 0 !important;
 }
 .table{
   margin: 0;
@@ -22,16 +24,21 @@
 
 a{
   padding: 0 6px;
+  text-decoration: none !important;
   }
 .Installation{
   color: #ff6600;
 }
 .btn-lg{
   background-color:  #ff6600;
+  border-radius: 25px 0 25px 0 !important;
 }
-.active{
-  background-color:  #ff6600;
+.active {
+  background-color:  #ff6600 !important;
+  border-radius: 25px 0 25px 0 !important;
+  color: white !important;
   }
+
   i{
     background-color:  #ff6600;
     color: #f9eded;
@@ -41,10 +48,18 @@ hr{
 }
 .carousel-item{
   background-color: #000;
+  border-radius: 25px 0 25px 0 !important;
 }
 td{
   color: #e9af11;
 }
+.card{
+  margin: 15px !important;
+}
+button{
+  border-radius: 25px 0 25px 0 !important;
+}
+
 
 /***********************Footer***********************/
 body, div {
