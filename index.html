@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 
   <title>GoodWEB Solutions - SuperSpnic</title>
   <link rel="shortcut icon" href="images/favicon.ico">
@@ -17,14 +18,6 @@
 </head>
 
 <body>
-  <!-- preloader -->
-  <div id="preLoader">
-    <div id="loader">
-    
-    </div>
-  </div>
-
-
   <!-- Our Contacts-->
   <div class="container-fluid" style="margin: 0;" role="status">
     <table class="table table-dark">
@@ -178,6 +171,52 @@
     </div>
   </div>
   <!--Counters-->
+
+  <div class="parallax section parallax-off" style="z-index: 2;  background-image: url(uploads/parallax_04.jpg);  padding: 150px;">
+  <table class="table table-borderless">
+  <thead>
+    <tr>
+      <th scope="col"><i class="fa fa-briefcase" style="font-size:48px"></i></th>
+      <th scope="col"><i class="fa fa-smile-o" style="font-size:48px"></th>
+      <th scope="col"><i class="fa fa-users" style="font-size:48px"></i></th>
+      <th scope="col"><i class="fa fa-wechat" style="font-size:48px"></i></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id = 'td1'></td>
+      <td id = 'td2'></td>
+      <td id = 'td3'></td>
+      <td id = 'td4'></td>
+    </tr>
+    <tr>
+      <td><h4>Complated Projects</h4></td>
+      <td><h4>Happy Clients</h4></td>
+      <td><h4>Customer Services</h4></td>
+      <td><h4>Answered Questions</h4></td>
+      <script type="text/javascript">
+      var td1, td2, td3, td4 = 0;
+      while (td1 < 1200) {
+        td1 ++;
+        document.getElementById("td1").innerHTML = 'td1';
+      }
+      while (td1 < 3210) {
+        td1 ++;
+        document.getElementById("td2").innerHTML = 'td2';
+      }
+      while (td1 < 3781) {
+        td1 ++;
+        document.getElementById("td3").innerHTML = td3;
+      }
+      while (td1 < 4300) {
+        td1 ++;
+        document.getElementById("td4").innerHTML = td4;
+      }
+      </script>
+    </tr>
+    </tbody>
+</table>
+</div>
   <!--Our Services-->
   <!--Sample-->
   <!--Features & OverViews-->

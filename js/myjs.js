@@ -12,28 +12,26 @@ $(document).ready(function() {
   $('nav').css("background-color", "white");
 });
 
-
-var loader;
-function loadNow(opacity){
-  if (opacity <= 0){
-    displayContent();
-  }
-  else {
-    loader.style.opacity = opacity;
-    window.setTimeout(function(){
-      loadNow(opacity - 0.05)
-    }, 100);
-  }
+var td1, td2, td3, td4 = 0;
+while (td1 < 1200) {
+  td1 ++;
+  document.getElementById("td1").innerHTML = td1;
 }
-function displayContent(){
-  loader.style.display = 'none';
-  document.getElementById('content').style.display = 'block';
-  document.addEventListener("DOMContentLoader", function(){
-    loader = document.getElementById("loader");
-    loadNow(1);
-  })
+while (td1 < 3210) {
+  td1 ++;
+  document.getElementById("td2").innerHTML = td2;
+}
+while (td1 < 3781) {
+  td1 ++;
+  document.getElementById("td3").innerHTML = td3;
+}
+while (td1 < 4300) {
+  td1 ++;
+  document.getElementById("td4").innerHTML = td4;
 }
 
-
+document.getElementById("td2").innerHTML = td2;
+document.getElementById("td3").innerHTML = td3;
+document.getElementById("td4").innerHTML = td4;
 // $('#about_01').click(function(){$(this).remove();},
 // function(){$(".container mt-3 col-md-6").html('<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>');})
